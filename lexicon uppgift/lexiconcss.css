@@ -1,0 +1,24 @@
+
+    body {
+   
+
+
+h4 {
+    font-size: 1rem;
+    
+    font-weight:arial;
+    margin-bottom: 0.5rem;
+    padding: 16px;
+    gap: 10px;
+    height: 54px;
+    width:1,184px;
+    flow:vertical;
+    background-color: #c0baba;
+}
+.låda   
+ {def
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     background-color: #ca8f8f;
+}
