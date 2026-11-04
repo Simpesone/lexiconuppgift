@@ -4,16 +4,17 @@
 #bild1
  {
     border:1px solid;
-    height: 500px;
-    width: 1280px;
+    height: 420px;
+    width: 600px;
     position: relative;
-    left: 25%;
-    border-color: white;
+    right: 0px;
+    border-color:  rgb(250, 241, 222);
+    border-radius: 10px;
 }
 h1 {
-    position: relative;
+    position: right;
     left: 25px;
-    color: #c41b1b;
+    color: #000000;
     
 }
 h2{
@@ -36,16 +37,16 @@ p{
 .box1  
  {
     height: 2000px;
-     background-color: #e5a69b;
+     background-color: #547a61;
 }
 .box3{
     position: relative;
     left:25%;
     border: 1px solid;
-    border-color:white;
+    border-color: rgb(250, 241, 222);
     height: 1336px;
     width: 1280px;
-    background-color: white;
+    background-color: rgb(250, 241, 222);
 }
 
 .box4 {
@@ -80,7 +81,7 @@ p{
 .box7{
    position: relative;
 left: 25px;
-   width: 1184;
+   width: 1184px;
   height: 516px;
  
 
@@ -93,5 +94,5 @@ left: 25px;
     width: 48%;
   height: 100%;
   float: left;
- 
-}
+  
+ }
