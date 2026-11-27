@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="Main.css">
+  <title>Enkelt recept på pannkakor</title>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Hoppa till innehållet</a>
+
+   <nav class="main-nav" aria-label="Huvudmeny">
+      <img src="bilder/icon3.ico" aria-label="site-icon">
+      <a href="Startsida.html">Hem</a>
+      <a href="Form.html">Skapa recept</a>     
+      <a href="Recept-1.html">Recept</a>
+      <a href="#">Kontakt</a>
+  </nav>
+
+
+  <main id="main-content" class="main-wrapper">
+    <article class="main-content">
+     <main>
+    <h1>Skicka in ditt recept här!</h1>
+
+    <form action="" method="get">
+      <div>
+        <label for="name">Namn</label>
+        <input type="text" id="name" name="name" aria-describedby="name-help" placeholder="John Doe / J.D" required minlength="2" maxlength="30" autocomplete="name">
+        <p id="name-help">Ange ditt för- och efternamnm eller initialer</p>
+      </div>
+
+      <!-- <label for="postal-code">Postnummer</label>
+      <input type="text" id="postal-code" name="postal-code" autocomplete="postal-code" inputmode="numeric"> -->
+
+      <div>
+        <label for="email">E-postadress</label>
+        <input type="email" id="email" name="email" placeholder="example@gmail.com" required autocomplete="email">
+      </div>
+
+      <div>
+        <input type="checkbox" id="newsletter" name="newsletter" value="yes" checked>
+        <label for="newsletter">
+          Bli informerad när någon recenserar
+        </label>
+      </div>
+
+      <fieldset>
+        <legend>Vilken erfarenhetsnivå är ditt recept?</legend>
+        <div>
+          <input type="radio" id="beginner" name="experience" value="beginner">
+          <label for="beginner">Lätt</label>
+        </div>
+        <div>
+          <input type="radio" id="intermediate" name="experience" value="intermediate">
+          <label for="intermediate">Medel</label>
+        </div>
+        <div>
+          <input type="radio" id="advanced" name="experience" value="advanced">
+          <label for="advanced">Svår</label>
+        </div>
+      </fieldset>
+
+      <div>
+        <label for="workshop">Välj Kategori</label>
+
+        <select id="workshop" name="workshop">
+          <option value="">Frukost</option>
+          <option value="html">Middag</option>
+          <option value="javascript">Efterätt</option>
+          <option value="accessibility">Fika</option>
+          <option value="accessibility">Annat</option>
+        </select>
+      </div>
+
+      <!-- <div>
+        <label for="participants">Antal deltagare</label>
+        <input type="number" id="participants" name="participants" min="1" max="5">
+      </div> -->
+
+      <div>
+        <label for="message">Ingredienser</label>
+
+        <textarea id="message" name="message" rows="4" cols="40" required placeholder="morot, celeri, lök..."></textarea>
+      </div>
+        <div>
+           <label for="message">Instruktioner</label>
+
+           <textarea id="message" name="message" rows="4" cols="40" required placeholder="Steg 1, Steg 2, Steg 3, Steg 4..."></textarea>
+            </div>
+
+        <div>
+             <label for="message">Bild</label>
+
+         <input type="file" id="message" name="message" accept="image/png, image/jpeg" />
+
+        </div>
+         <button> ladda upp</button>
+      </section>
+    </article>
+     <br>
+  <footer class="site-footer">
+    <img src="bilder/icon3.ico" aria-label="site-icon"><figcaption>Enkla vardagsrecept som alla kan laga</figcaption>
+    <nav class="footer-nav">
+    <ul>
+     <li> <a href="Startsida.html">Hem</a></li>
+     <li> <a href="Form.html">Skapa recept</a></li>  
+     <li> <a href="Recept-1.html">Recept</a></li>
+     <li> <a href="#">Kontakt</a></li>
+    </ul>
+    </nav>
+  </footer>
+  </main>
+
+ 
+</body>
+</html>
